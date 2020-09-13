@@ -1,0 +1,16 @@
+h1 {
+    color: green;
+}
+
+
+.general-layout {
+    // styles for .general-layout
+
+    &__title {
+
+    }
+
+    &__subtitle {
+        // styles for .general-layout__subtitle
+    }
+}
