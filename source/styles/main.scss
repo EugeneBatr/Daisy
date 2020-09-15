@@ -1,16 +1,80 @@
-h1 {
-    color: green;
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+.intro {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/girl.jpg") ;
+
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px #181818bf;
+}
+.first-screen__title_rectangle {
+    height: 68px;
+    width: 59px;
+}
+.first-screen__title_name {
+    width: 64px;
+    height: 22px;
+    color: #ffffff;
+    font-family: "Gotham Pro";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 15.65px;
+    letter-spacing: -0.2px;
+    padding-top: 24px;
+    padding-left: 16px;
+}
+.first-screen__title {
+    display: flex;
+    justify-content: right ;
+    padding-right: 35%;
 }
 
+.nav_logo {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.nav {
+    color: white;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    transition: color .2s linear;
+    padding-top: 24px;
+    position: relative;
+}
+.nav:after {
+   content: "";
+   display: block;
+   width: 100%;
+   height: 3px;
+   display: none;
 
-.general-layout {
-    // styles for .general-layout
+   background-color: #fc635e;
 
-    &__title {
-
-    }
-
-    &__subtitle {
-        // styles for .general-layout__subtitle
-    }
+   position: absolute;
+   top: 100%;
+   left: 0;
+   z-index: 1;
+   transition: color .2s linear;
+}
+.nav:hover {
+    color:#fc635e;
+}
+.nav:hover:after {
+  display: block;
+}
+.header {
+    padding-top: 31px;
+    display: flex;
+    justify-content: right;
 }
