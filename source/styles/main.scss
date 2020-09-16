@@ -11,21 +11,21 @@ body {
 }
 .intro {
     width: 100%;
-    height: 100vh;
+    height: 774px;
     background-image: url("../img/girl.jpg") ;
 
     background-size: cover;
     box-shadow: inset 0 0 0 1000px #181818bf;
 }
-.first-screen__title_rectangle {
+.first-screen__logo_rectangle {
     height: 68px;
     width: 59px;
 }
-.first-screen__title_name {
+.first-screen__logo_name {
     width: 64px;
     height: 22px;
     color: #ffffff;
-    font-family: "Gotham Pro";
+    font-family: 'Roboto';
     font-size: 24px;
     font-weight: 700;
     line-height: 15.65px;
@@ -33,7 +33,7 @@ body {
     padding-top: 24px;
     padding-left: 16px;
 }
-.first-screen__title {
+.first-screen__logo {
     display: flex;
     justify-content: right ;
     padding-right: 35%;
@@ -42,6 +42,7 @@ body {
 .nav_logo {
     font-size: 16px;
     text-transform: uppercase;
+    font-family: 'Roboto';
 }
 .nav {
     color: white;
@@ -77,4 +78,63 @@ body {
     padding-top: 31px;
     display: flex;
     justify-content: right;
+}
+.first-screen__title {
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-screen__title_name {
+    display: flex;
+    justify-content: center;
+    justify-content: right;
+    font-family: 'Roboto';
+
+}
+.first-screen__title_line {
+    width: 107px;
+    height: 8px;
+    background-color: #ffffff;
+    opacity: 0.2;
+    margin-top: 26px;
+}
+.first-screen__title_clients {
+    color: #fc635e;
+    font-size: 51px;
+    margin-left: 10px;
+}
+.first-screen__title_business {
+    font-size: 51px;
+    padding-left: 20px;
+    color: white;
+    margin-right: 10px;
+}
+.first-screen__title_discription {
+    font-size: 24px;
+    color: #ffffff;
+    width: 600px;
+    height: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+.first-screen__buttom {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-screen__buttom_area {
+    width: 205px;
+    height: 56px;
+    border: 2px solid #fc635e;
+    border-radius: 7px;
+}
+.first-screen__buttom_text {
+    padding-top: 13px;
+    height: 18px;
+    color: #fc635e;
+    font-size: 24px;
+    text-align: center;
 }
