@@ -322,5 +322,213 @@ margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 57px;
+    margin-top: 57px;
+    padding-bottom: 85px;
+}
+
+
+
+
+
+
+
+
+.we-do__container_title_gray {
+    color: #adadad;
+    padding-right: 11px;
+    margin-left: 2px;
+}
+.we-do__container_title_red {
+    color: #fc635e;
+}
+.we-do__container_title_text {
+    display: flex;
+    justify-content: right center;
+    font-size: 28px;
+    width: 238px;
+}
+.we-do__container_title_line {
+    width: 220px;
+    height: 1px;
+    background-color: #adadad;
+}
+.we-do__container_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+.we-do__container_discription_title-line {
+    width: 10px;
+    height: 39px;
+    background-color: #fc635e;
+}
+.we-do__container_discription_title-text {
+    margin-left: 11px;
+    margin-top: 3px;
+    height: 21px;
+    color: #868686;
+    font-size: 28px;
+}
+.we-do__container_discription_title {
+    display: flex;
+    justify-content: right;
+}
+.we-do__container_discription_text {
+    width: 392px;
+    height: 110px;
+    color: #9e9898;
+    font-size: 15px;
+    overflow: hidden;
+    margin-top: 20px;
+    line-height: 24px;
+}
+.we-do__container_discription_buttom-area {
+    width: 167px;
+    height: 44px;
+    background-color: #fc635e;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.we-do__container_discription_buttom-text {
+    width: 102px;
+    height: 16px;
+    color: #f2f2f2; 
+    text-align: 20px;
+    text-align: center;
+}
+.we-do__container_discription_buttom {
+    margin-top: 39px;
+}
+.we-do__container_d-and-i {
+    display: flex;
+    justify-content: right;
+    margin-top: 67px;
+    padding-bottom: 92px;
+}
+.we-do__container_discription {
+    padding-top: 30px;
+    padding-right: 42px ;
+}
+
+
+
+.advertising__container_discription_title-line {
+    width: 10px;
+    height: 39px;
+    background-color: #fc635e;
+}
+.advertising__container_discription_title-text {
+    margin-top: 3px;
+    height: 21px;
+    color: #868686;
+    font-size: 28px;
+    margin-right: 11px;
+}
+.advertising__container_discription_title {
+    display: flex;
+    justify-content: right;
+}
+.advertising__container_discription_text {
+    width: 392px;
+    height: 110px;
+    color: #9e9898;
+    font-size: 15px;
+    overflow: hidden;
+    margin-top: 20px;
+    line-height: 24px;
+    text-align: end;
+}
+.advertising__container_discription_buttom-area {
+    width: 167px;
+    height: 44px;
+    background-color: #fc635e;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.advertising__container_discription_buttom-text {
+    width: 102px;
+    height: 16px;
+    color: #f2f2f2; 
+    text-align: 20px;
+    text-align: center;
+}
+.advertising__container_discription_buttom {
+    margin-top: 39px;
+    
+}
+.advertising__container_d-and-i {
+    display: flex;
+    justify-content: right;
+    padding-top: 137px;
+    padding-bottom: 148px;
+}
+.advertising__container_discription {
+    padding-top: 30px;
+    padding-left: 46px ;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+    
+
+
+.marketing__container_discription_title-line {
+    width: 10px;
+    height: 39px;
+    background-color: #fc635e;
+}
+.marketing__container_discription_title-text {
+    margin-left: 11px;
+    margin-top: 3px;
+    height: 21px;
+    color: #868686;
+    font-size: 28px;
+}
+.marketing__container_discription_title {
+    display: flex;
+    justify-content: right;
+}
+.marketing__container_discription_text {
+    width: 392px;
+    height: 110px;
+    color: #9e9898;
+    font-size: 15px;
+    overflow: hidden;
+    margin-top: 20px;
+    line-height: 24px;
+}
+.marketing__container_discription_buttom-area {
+    width: 167px;
+    height: 44px;
+    background-color: #fc635e;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.marketing__container_discription_buttom-text {
+    width: 102px;
+    height: 16px;
+    color: #f2f2f2; 
+    text-align: 20px;
+    text-align: center;
+}
+.marketing__container_discription_buttom {
+    margin-top: 39px;
+}
+.marketing__container_d-and-i {
+    display: flex;
+    justify-content: right;
+    padding-top: 123px;
+    padding-bottom: 92px;
+}
+.marketing__container_discription {
+    padding-top: 30px;
+    padding-right: 42px ;
 }
