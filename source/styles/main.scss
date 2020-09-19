@@ -80,7 +80,6 @@ body {
     justify-content: right;
 }
 .first-screen__title {
-    padding-top: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -138,7 +137,18 @@ body {
     font-size: 24px;
     text-align: center;
 }
- 
+.first-screen__slider {
+    display: inline-block;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+.first-screen__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+
+}
 
 
 
@@ -168,7 +178,7 @@ margin-bottom: 20px;
     width: 505px;
     height: 40px;
     color: #adadad;
-    overflow: hidden scroll;
+    overflow: hidden;
     text-align: center;
 }
 .receive__title {
@@ -205,13 +215,15 @@ margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-right: 5%;
+   
 }
 .receive__title_container {
     display: flex;
-    justify-content: right center;
     margin-top: 81px;
     margin-bottom: 94px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
@@ -275,7 +287,11 @@ margin-bottom: 20px;
     height: 36px;
     font-size: 51px;
 }
-
+.receive__slider {
+    
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
 
 
 
@@ -357,7 +373,7 @@ margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 60px;
+    padding-top: 60px;
 }
 .we-do__container_discription_title-line {
     width: 10px;
@@ -412,6 +428,9 @@ margin-bottom: 20px;
 .we-do__container_discription {
     padding-top: 30px;
     padding-right: 42px ;
+}
+.we-do__container {
+    background-color: #f2f2f2;
 }
 
 
@@ -531,4 +550,7 @@ margin-bottom: 20px;
 .marketing__container_discription {
     padding-top: 30px;
     padding-right: 42px ;
+}
+.marketing__container {
+    background-color: #f2f2f2;
 }
