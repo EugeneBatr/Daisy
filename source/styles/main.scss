@@ -36,7 +36,6 @@ body {
 .first-screen__logo {
     display: flex;
     justify-content: right ;
-    padding-right: 35%;
 }
 
 .nav_logo {
@@ -52,6 +51,7 @@ body {
     transition: color .2s linear;
     padding-top: 24px;
     position: relative;
+    text-decoration: none;
 }
 .nav:after {
    content: "";
@@ -78,6 +78,9 @@ body {
     padding-top: 31px;
     display: flex;
     justify-content: right;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .first-screen__title {
     display: flex;
@@ -90,7 +93,9 @@ body {
     justify-content: center;
     justify-content: right;
     font-family: 'Roboto';
-
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
 }
 .first-screen__title_line {
     width: 107px;
@@ -166,6 +171,7 @@ body {
     width: 338px;
     height: 21px;
     font-size: 28px;
+    
 }
 .receive__title_line {
     width: 337px;
@@ -180,6 +186,7 @@ body {
     color: #adadad;
     overflow: hidden;
     text-align: center;
+    
 }
 .receive__title {
     margin-top: 67px;
@@ -355,6 +362,9 @@ body {
     margin-top: 57px;
     padding-bottom: 85px;
 }
+.our-process__picture {
+    max-width: 100%;
+}
 .our-process__container {
     display: flex;
     flex-direction: column;
@@ -463,6 +473,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+.we-do__container_img {
+    max-width: 100%;
+}
 .we-do__slider {
     display: inline-block;
     margin-bottom: 17px;
@@ -519,14 +532,13 @@ body {
 }
 .advertising__container_d-and-i {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     padding-top: 137px;
-    
+    flex-wrap: wrap;
     
 }
 .advertising__container_discription {
     padding-top: 30px;
-    padding-left: 46px ;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -590,13 +602,13 @@ body {
 }
 .marketing__container_d-and-i {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 123px;
     padding-bottom: 92px;
 }
 .marketing__container_discription {
     padding-top: 30px;
-    padding-right: 42px ;
 }
 .marketing__container {
     background-color: #f2f2f2;
@@ -658,6 +670,10 @@ body {
 .portfolio__menu_text_slash {
     color: #747474;
 }
+.portfolio__menu {
+    display: flex;
+    flex-wrap: wrap;
+}
 .portfolio__pictures {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -682,7 +698,9 @@ body {
     right: 0;
     left: 0;
     background-color: #fc635ea3;
-    background-image: url("../img/+.png") no-repeat;
+    background-image: url("../img/+.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
     opacity: 0;
 }
 .portfolio__pictures_bikes_shadow:hover {
@@ -705,7 +723,9 @@ body {
     right: 0;
     left: 0;
     background-color: #fc635ea3;
-    background-image: url("../img/+.png") no-repeat;
+    background-image: url("../img/+.png");
+    background-repeat: no-repeat;
+    background-position: center;
     opacity: 0;
 }
 .portfolio__pictures_paints_shadow:hover {
@@ -729,6 +749,8 @@ body {
     left: 0;
     background-color: #fc635ea3;
     background-image: url("../img/+.png")  ;
+    background-repeat: no-repeat;
+    background-position: center;
     opacity: 0;
 }
 .portfolio__pictures_bus_shadow:hover {
@@ -752,6 +774,8 @@ body {
     left: 0;
     background-color: #fc635ea3;
     background-image: url("../img/+.png")  ;
+    background-repeat: no-repeat;
+    background-position: center;
     opacity: 0;
 }
 .portfolio__pictures_box_shadow:hover {
@@ -775,6 +799,8 @@ body {
     left: 0;
     background-color: #fc635ea3;
     background-image: url("../img/+.png")  ;
+    background-repeat: no-repeat;
+    background-position: center;
     opacity: 0;
 }
 .portfolio__pictures_web_shadow:hover {
@@ -798,6 +824,8 @@ body {
     left: 0;
     background-color: #fc635ea3;
     background-image: url("../img/+.png")  ;
+    background-repeat: no-repeat;
+    background-position: center;
     opacity: 0;
 }
 .portfolio__pictures_cars_shadow:hover {
@@ -978,6 +1006,7 @@ body {
     display: flex;
     justify-content: center;
 }
+
  
 
 
@@ -991,6 +1020,7 @@ body {
 }
 .map__background {
     background-image: url("../img/map.png");
+    background-size: cover;
     width: 100%;
     height: 338px;
     margin-top: 165px;
@@ -1001,7 +1031,37 @@ body {
 
 
 .footer__img {
-    width: 100%;
+    max-width: 100%;
     height: 253px; 
-    background-image: url("../img/iphone.png"); 
+    background-image: url("../img/iphone.png");
+    background-size: cover;
+    box-shadow: inset 0 0 0 1000px #181818bf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+.footer__img_logo-picture {
+    width: 78px;
+    height: 90px;
+}
+.footer__img_logo-title {
+    width: 85px;
+    height: 30px;
+    color: #ffffff;
+    font-size: 32px;
+    margin-left: 22px;
+}
+.footer__img_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    position: relative;
+    height: 253px;
 }
