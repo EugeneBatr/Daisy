@@ -6,34 +6,10 @@ html
         meta(charset="UTF-8")
         meta(name="viewport" content="width=device-width, initial-scale=1")
     body
-        section.first-screen  
-            div.intro
-                div.container.first-screen__container
-                    div.header
-                        div.first-screen__logo
-                            div.first-screen__logo_rectangle
-                                img(src="../img/rectangle.png")
-                            div.first-screen__logo_name Daisy
-                        div.header_logo
-                            a.nav(href="#receive") ABOUT
-                            a.nav(href="#portfolio") PORTFOLIO
-                            a.nav(href="#we-do__container") SERVICES
-                            a.nav(href="#our-team") CONTACT
-                    div.first-screen__title
-                        div.first-screen__title_name
-                            div.first-screen__title_line
-                            div.first-screen__title_clients CLIENTS 
-                            div.first-screen__title_business  IN YOUR BUSINESS
-                            div.first-screen__title_line
-                        div.first-screen__title_discription Your clients on the internet. Learn how to receive them.
-                        div.first-screen__buttom
-                            div.first-screen__buttom_area
-                                div.first-screen__buttom_text I want client
-                    a.first-screen__slider(href="#receive") 
-                        img(src="../img/slider.png")        
+        include first-screen.pug
         a(name="receive")
         section.receive 
-            div.container.receive_container 
+            div.receive_container.container
                 div.receive__title
                     div.receive__title_text 
                         div.receive__title_text_gray WHAT CAN
@@ -179,8 +155,8 @@ html
                     div.portfolio__pictures_cars
                         div.portfolio__pictures_cars_shadow
                 div.portfolio__area_buttom
-                                div.portfolio__area_buttom_area
-                                    div.portfolio__area_buttom_text I want landing page 
+                        div.portfolio__area_buttom_area
+                            div.portfolio__area_buttom_text I want landing page 
                 a.portfolio__slider(href="#our-team") 
                             img(src="../img/slidershadow.png")   
         a(name="our-team")    
